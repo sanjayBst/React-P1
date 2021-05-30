@@ -1,11 +1,12 @@
 // import ExpenseItem from "./components/ExpenseItem";
 import Expense from './components/Expense/Expense';
+import {useState} from 'react';
 import Card from './components/UI/Card';
 import './components/Expense/Expense';
 import NewExpense from './components/NewExpense/NewExpense';
 
 function App() {
-  let expenses = [
+  let DUMMY_EXPENSES = [
     {
       id: 0,
       date: new Date(),
@@ -17,12 +18,18 @@ function App() {
       date: new Date(),
       title: "Second title",
       amount: 300,
-    },
+    }
   ];
+
+  const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
+
+
 
   const newExpense = (newExpense) => {
     console.log("new Expense=======>", newExpense);
-    expenses.push(newExpense);
+    setExpenses(previousState=>{
+      return [newExpense, ...previousState]
+    })
   }
 
   return (

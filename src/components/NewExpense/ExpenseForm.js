@@ -69,11 +69,10 @@ const ExpenseForm = (props) => {
           </div>
           <div>
             <label> Date </label>
-            <input type="date" name="Date" value="date" onChange={dateChangeHandler} />
+            <input type="date" name="Date" value={date} onChange={dateChangeHandler} />
           </div>
           <button type="submit" name="Add Expense">
-            {" "}
-            Add Expense{" "}
+              submit
           </button>
         </form>
       </div>

@@ -1,4 +1,4 @@
-import './ExpenseItem.css';
+import './css/ExpenseItem.css';
 
 const ExpenseDate = (props) => {
     let date = props.date.getDate();
