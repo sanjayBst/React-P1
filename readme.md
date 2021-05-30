@@ -1,3 +1,3 @@
 Sample React application for fun
 
-[LIVE HERE](https://babitabisht.github.io/React-P1)
+[LIVE HERE](https://sanjayBst.github.io/React-P1)
