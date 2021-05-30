@@ -5,7 +5,6 @@ import "./css/ExpenseFilter.css";
 const ExpensesFilter = (props) => {
 
     const filterChange = (event) => {
-        console.log('"filter chanfe===>', event.target.value);
         props.onYearSelect(event.target.value);
     }
 

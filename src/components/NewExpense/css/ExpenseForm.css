@@ -1,0 +1,82 @@
+.addNew{
+
+
+   
+    border: 10px solid dashed;
+    color: blanchedalmond;
+    background-color: blueviolet;
+    height: 100px;
+    margin: 20px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.addNewButton{
+
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+.expenseForm{
+
+padding:20px;
+}
+
+.expenseForm label{
+    display: block;
+    color: blanchedalmond;
+}
+
+.expenseForm input[type="text"]{
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+.expenseForm input[type="date"]{
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+.expenseForm button[type="submit"]{
+
+    background-color: blue;
+    color: white;
+    padding: 10px 5px;
+    border:none;
+    margin: 10px;
+  
+
+}
+.expenseForm button[type="submit"]{
+
+    background-color: blue;
+    color: white;
+    padding: 10px 5px;
+    border:none;
+    margin: 10px;
+  
+}
+
+.expenseForm button[type="cancel"]{
+
+    background-color: red;
+    color: white;
+    padding: 10px 5px;
+    border:none;
+    margin: 10px;
+  
+
+}
