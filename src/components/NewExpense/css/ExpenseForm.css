@@ -78,7 +78,6 @@ padding:20px;
 }
 
 .expenseForm button[type="cancel"]{
-
     background-color: red;
     border-radius: 10px;
     color: white;
@@ -86,5 +85,4 @@ padding:20px;
     border:none;
     margin: 10px;
   
-
 }
