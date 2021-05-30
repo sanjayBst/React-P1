@@ -1,12 +1,12 @@
 import './css/ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 function ExpenseItem(props) {
 
-  const [title, setTitle]=useState(props.title);
+  // const [title, setTitle]=useState(props.title);
   const clickHandler = () => {
-    setTitle("I am changed temporarily");
+    // setTitle("I am changed temporarily");
   }
 
   return (

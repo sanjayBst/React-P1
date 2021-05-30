@@ -25,7 +25,7 @@ const NewExpense = (props) => {
   return (
     <div>
 
-      {registerExpense != true &&  <div className="addNew" >
+      {registerExpense !== true &&  <div className="addNew" >
         <input className="addNewButton" onClick={onClickHandler} type="button" value="Add new Item" />
       </div>}
      
