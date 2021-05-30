@@ -54,6 +54,8 @@ const ExpenseForm = (props) => {
          
        
        props.onExpenseSave(expenseData);
+      props.registerExpense(false);
+
     }
 
     const onCancel =()=>{
