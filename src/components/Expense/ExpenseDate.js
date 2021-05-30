@@ -5,10 +5,10 @@ const ExpenseDate = (props) => {
     let month = props.date.getMonth();
     let year = props.date.getFullYear();
     return (
-      <div>
-        <p className="expense-date__day">date: {date} </p>
-        <p className="expense-date__month">month: {month} </p>
-        <p className="expense-date__year">year: {year} </p>
+      <div className = 'main'>
+        <p className="expense-date__day">date : {date} </p>
+        <p className="expense-date__month">month : {month} </p>
+        <p className="expense-date__year">year : {year} </p>
       </div>
     );
 }

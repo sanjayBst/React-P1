@@ -11,14 +11,14 @@ function ExpenseItem(props) {
 
   return (
     <div className="expense-item">
-      <div>{props.date.toDateString()}</div>
+      <div className = 'DMY'>{props.date.toDateString()}</div>
       <ExpenseDate  date={props.date}></ExpenseDate>
       <div>
         <div className="expense-item__description">
           <h2>{props.title}</h2>
           <p>  </p>
           <div className="expense-item__price">${props.amount}</div>
-          <button onClick={clickHandler}> Click Here </button>
+          <button   onClick={clickHandler}  className = 'btn' >Edit </button> 
         </div>
         <hr />
       </div>
